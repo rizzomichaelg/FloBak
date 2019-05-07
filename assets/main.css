@@ -1,0 +1,163 @@
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-ms-sizing: border-box;
+}
+body {
+	margin: 0px;
+	background: #000;
+	font-family: DIN Alternate, Helvetica, sans-serif;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	color: #fff;
+}
+header {
+	position: relative;
+	min-height: 900px;
+	min-width: 1000px;
+	background: url(brand_pattern@2x.jpg) top center repeat-x;
+	background-size: 985px 908px;
+	overflow: hidden;
+}
+header .main {
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	width: 450px;
+	margin: 0 0 0 -450px;
+	padding: 0 0 0 0;
+	text-align: center;
+}
+header .main h1 {
+	width: 365px;
+	font-size: 70;
+	margin: 50px auto 50px auto;
+}
+header .main p {
+	font-size: 30px;
+	text-align: center;
+	max-width: 400px;
+	padding: 0px 20px;
+	margin: 0 auto;
+	line-height: 40px;
+}
+header .main p em {
+	background: rgba(255,255,255,.15);
+	padding: 4px 10px 5px 10px;
+	font-style: normal;
+}
+header .button-wrapper {
+	position: relative;
+	width: 450px;
+	height: 135px;
+}
+header .appstore {
+	position: absolute;
+	left: 0;
+	margin: 50px auto 5px auto;
+	width: 202px;
+	height: 60px;
+	background: url(appstore@2x.png);
+	background-size: 202px 60px;
+	text-indent: -5000em;
+}
+header .appstore:hover {
+	-webkit-filter: invert(100%) contrast(150%);
+}
+header .playstore {
+	position: absolute;
+	margin: 45px auto 5px auto;
+	width: 202px;
+	height: 80px;
+	background: url(google-play-badge.png);
+	background-size: 202px 80px;
+	text-indent: -5000em;
+}
+header .playstore:hover {
+	-webkit-filter: invert(100%) contrast(150%);
+}
+
+
+.iphone {
+	position: relative;
+	width: 269px;
+	height: 543px;
+	background: url(iphone@2x.png);
+	background-size: 269px 543px;
+}
+.iphone img,
+.iphone video,
+.iphone iframe {
+	position: absolute;
+	top: 69px;
+	left: 21px;
+	width: 227px;
+	height: 404px;
+}
+header .device {
+	position: absolute;
+	left: 60%;
+}
+header .iphone {
+	top: 60px;
+}
+section#footer {
+	background: #fff;
+	padding: 30px 20px 60px 20px;
+	margin: 0px 0 0 0;
+	color: #666;
+	overflow: auto;
+}
+section#footer .centering {
+	max-width: 980px;
+	padding: 0 190px 0 40px;
+	margin: 0px auto;
+}
+section#footer h3 {
+	color: #666;
+	margin-left: -1px;
+}
+section#footer .column {
+	text-align: left;
+	float: left;
+	margin: 0 0 10px;
+}
+section#footer ul {
+	list-style-type: none;
+	margin: -10px 0 0 0;
+	padding: 0;
+}
+section#footer .column.right {
+	float: right;
+	text-align: right;
+	margin: 26px -150px 0 0;
+}
+section#footer small {
+	display: block;
+	margin: 10px 0 0 0;
+	color: #999;
+}
+section#footer h3 {
+	font-size: 26px;
+}
+section#footer a:link,
+section#footer a:visited {
+	display: block;
+	color: #999;
+	font-size: 14px;
+	margin: 0 0 5px 0;
+}
+section#footer a:hover {
+	color: #FF8833;
+}
+section#footer a.social {
+	display: inline-block;
+	text-indent: -5000em;
+	text-align: left;
+	margin: 10px 0px 0 6px;
+	color: #000;
+	width: 36px;
+	height: 37px;
+	background-size: 36px 37px;
+}
